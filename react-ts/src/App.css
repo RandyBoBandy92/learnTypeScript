@@ -8,3 +8,49 @@ div.App {
 li {
   list-style: none;
 }
+
+ul {
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+li {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  border: 3px solid black;
+  padding: 0.5rem;
+}
+
+li header {
+  display: grid;
+  place-items: center;
+  font-size: 16px;
+}
+
+h2 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  height: 50px;
+}
+
+.add-to-list {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 5px;
+}
+
+.add-to-list button {
+  width: max-content;
+  justify-self: center;
+}
